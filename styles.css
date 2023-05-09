@@ -1,0 +1,20 @@
+/* Navigation */
+
+.navbuttons {
+    list-style-type: none;
+}
+
+/* Heading and Odin logo */
+
+.heading {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.odin-logo {
+    height: 5rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
