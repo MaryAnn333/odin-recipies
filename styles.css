@@ -6,21 +6,33 @@ nav {
     background-color: grey;
 }
 
-.navbuttons,
-.recipebutton {
+.navbuttons {
     list-style-type: none;
-    display: flex; 
-    justify-content: space-around;
+    display:flex;
 }
 
+.nav-list {
+    float: left;
+    padding: 6px;
+}
 
+button {
+    border: none;
+    background-color: grey;
+}
 
+button:hover {
+    opacity: 0.3;
+    transition: 0.6;
+
+}
 
 /*                       */
 /* Heading and Odin logo */
 /*                       */
 
 .heading {
+    color: #331a00;
     font-family: 'Caesar Dressing', cursive;
     font-size: 100px;
     text-align: center;
