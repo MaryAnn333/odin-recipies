@@ -45,3 +45,22 @@ button:hover {
     height: 50px;
     width: auto;
 }
+
+/* ------------------------------------------- */
+/* -------- About intro html page CSS -------- */
+/* ------------------------------------------- */
+
+.about-intro-text {
+    display: flex;
+    justify-content:space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+/* .about-intro-image {
+
+} */
+
+
+
