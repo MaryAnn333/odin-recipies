@@ -2,8 +2,11 @@
 /* Navigation */
 /*            */
 
-nav {
-    background-color: grey;
+.navbar-contents {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 3px solid ;
 }
 
 .navbuttons {
@@ -12,23 +15,39 @@ nav {
 }
 
 .nav-list {
+    display: flex;
+    justify-content: space-between;
     float: left;
-    padding: 6px;
+    padding: 4px;
 }
 
 button {
     border: none;
-    background-color: grey;
+    background-color: white;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 17px;
 }
 
 button:hover {
     opacity: 0.3;
     transition: 0.6;
+}
 
+.right-nav {
+    display: flex;
+    float: right;
+    height: 5px;
+    width: auto;
+    margin-right: 2rem;
+}
+
+.nav-logo {
+    height: 50px;
+    width: auto;
 }
 
 /*                       */
-/* Heading and Odin logo */
+/* Main heading and Odin logo */
 /*                       */
 
 .heading {
@@ -39,7 +58,7 @@ button:hover {
 }
 
 .odin-logo {
-    height: 8rem;
+    height: 12rem;
     width: auto;
     display: flex;
     justify-content: center;
